@@ -29,6 +29,12 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
 	&& npm install -g npm@"$NPM_VERSION" \
 	&& npm cache clear
 
+# ====================
+# Upgrade npm to 3.5.0
+# ====================
+
+RUN npm install -g npm@3.5.0
+
 # ========================
 # Install ruby version 1.9
 # ========================
