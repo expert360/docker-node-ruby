@@ -32,10 +32,10 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
   && rm "node-v$NODE_VERSION-linux-x64.tar.xz" SHASUMS256.txt.asc SHASUMS256.txt
 
 # ====================
-# Upgrade npm to 3.5.0
+# Upgrade npm to 3.8.6
 # ====================
 
-RUN npm install -g npm@3.5.0
+RUN npm install -g npm@3.8.6
 
 # ========================
 # Install ruby version 2.2
