@@ -1,7 +1,5 @@
 FROM buildpack-deps:jessie
 
-MAINTAINER Daron <daron@expert360.com>
-
 # ====================
 # Install Nodejs 7.2.0
 # ====================
