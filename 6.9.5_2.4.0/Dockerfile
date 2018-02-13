@@ -1,7 +1,7 @@
 FROM buildpack-deps:jessie
 
 # ====================
-# Install Nodejs 7.2.0
+# Install Nodejs 6.9.5
 # ====================
 
 # gpg keys listed at https://github.com/nodejs/node
@@ -30,7 +30,7 @@ RUN curl -SLO "https://nodejs.org/dist/v$NODE_VERSION/node-v$NODE_VERSION-linux-
   && rm "node-v$NODE_VERSION-linux-x64.tar.xz" SHASUMS256.txt.asc SHASUMS256.txt
 
 # ========================
-# Install ruby version 2.2
+# Install ruby version 2.4
 # ========================
 
 ENV RUBY_MAJOR 2.4
