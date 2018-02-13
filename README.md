@@ -8,6 +8,8 @@ Docker container for a Node and Ruby development workflow
  * [`4.4.7_2.2` (4.4.7_2.2/Dockerfile)](https://github.com/expert360/docker-node-ruby/blob/master/4.4.7_2.2/Dockerfile)
  * [`5.12.0_2.2` (5.12.0_2.2/Dockerfile)](https://github.com/expert360/docker-node-ruby/blob/master/5.12.0_2.2/Dockerfile)
  * [`7.2.0_2.2` (7.2.0_2.2/Dockerfile)](https://github.com/expert360/docker-node-ruby/blob/master/7.2.0_2.2/Dockerfile)
+ * [`7.2.0_2.4` (7.2.0_2.4/Dockerfile)](https://github.com/expert360/docker-node-ruby/blob/master/7.2.0_2.4/Dockerfile)
+ * [`6.9.5_2.4.0` (6.9.5_2.4.0/Dockerfile)](https://github.com/expert360/docker-node-ruby/blob/master/6.9.5_2.4.0/Dockerfile)
 
 ## expert360/node-ruby
 
